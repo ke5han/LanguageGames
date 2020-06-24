@@ -62,7 +62,7 @@ def rocket_power():
     full_power = len(selected_list)
     each_ans = 100 / full_power
     current_power = scores * each_ans
-    print(f'{int(current_power)}%')
+    print(f'fusée rechargée {int(current_power)}%')
     #print(scores)
 
 
